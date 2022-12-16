@@ -1,0 +1,127 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0 0;
+    text-align: center;
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section {
+    background-image: url("images/Sheffield.jpg");
+    background-size: cover;
+    height: 343px;
+    background-position: 0 -90px;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero-heading-one {
+    margin: 90px auto 10px;
+    padding: 3px 8px;
+    background: #1D3557;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#hero-heading-two {
+    margin: 10px auto;
+    width: 300px;
+    padding: 3px 10px;
+    background: #1D3557;
+    font-size: 15px;
+    background: #457B9D;
+    color: white;
+    border-radius: 10px;
+}
+
+.activities-section {
+    margin-top: 0;
+    height: 330px;
+    background: #F1FAEE;
+}
+
+#activities-header {
+    padding: 10px auto 0;
+}
+
+
+.activity-div {
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+}
+
+.activity-img {
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 0 10px;
+
+}
+
+.activities-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity-title {
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.activity-desc {
+    width: 150px;
+}
+
+.guide-section {
+    height: 394px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#guide-card {
+    height: 250px;
+    width: 450px;
+    border-bottom: 5px solid black;
+    margin: 50px 0 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+    background: #A8DADC;
+}
+
+#guide-img-div {
+    display: flex;
+    align-items: center;
+}
+
+#brad-img {
+    margin: 10px 5px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#guide-text-div {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
+#guide-title {
+    font-style: normal;
+}
